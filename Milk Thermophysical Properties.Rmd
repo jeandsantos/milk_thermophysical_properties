@@ -39,7 +39,7 @@ The data used for this project was obtained from the research paper [*Influence 
 ```{r, warning=FALSE, message=FALSE, prompt=FALSE, error=FALSE}
 # Install and load packages
 if (!require(pacman)) {install.packages("pacman")} else require(pacman)
-pacman::p_load(caret, tidyverse, ggfortify, readr, readxl, parallel, doParallel, gridExtra, plyr, GGally, broom, knitr, kableExtra, tictoc, glmulti, modelr, plot3D, install = T)
+pacman::p_load(caret, ggplot2, dplyr, tidyr, magrittr, ggfortify, readr, readxl, parallel, doParallel, gridExtra, plyr, GGally, broom, knitr, kableExtra, tictoc, glmulti, modelr, plot3D)
 ```
 
 ***
